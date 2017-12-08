@@ -1,6 +1,6 @@
 <?php
 
-namespace SfCube\SfCubeBundle\DependencyInjection;
+namespace SfCube\FooBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
@@ -12,7 +12,7 @@ use Symfony\Component\DependencyInjection\Loader;
  *
  * @link http://symfony.com/doc/current/cookbook/bundles/extension.html
  */
-class SfCubeExtension extends Extension
+class SfCubeFooExtension extends Extension
 {
     /**
      * {@inheritdoc}
@@ -20,7 +20,6 @@ class SfCubeExtension extends Extension
     public function load(array $configs, ContainerBuilder $container)
     {
         dump($this->getAlias());
-
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
 

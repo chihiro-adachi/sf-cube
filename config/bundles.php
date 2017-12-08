@@ -14,5 +14,6 @@ return [
     Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle::class => ['all' => true],
     Symfony\Bundle\SecurityBundle\SecurityBundle::class => ['all' => true],
     Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle::class => ['all' => true],
+    SfCube\FooBundle\SfCubeFooBundle::class => ['all' => true],
     SfCube\SfCubeBundle\SfCubeBundle::class => ['all' => true],
 ];
